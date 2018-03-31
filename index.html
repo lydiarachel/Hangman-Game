@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Breakfast at Tiffany's Hangman Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+</head>
+<body>
+    <!--Header Container-->
+    <div id="container">
+        
+        <div class="page-header">
+            <h1>Breakfast at Tiffany's</h1>
+        </div>
+    </div>
+    <!--main game panel-->
+    <div class="container">
+
+        <div class="row picture">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 holly">
+                    <img src="./assets/images/breakfast_at_tiffanys_still_4.jpg" alt="Holly Golightly" id="holly-image">
+            </div>
+        </div>
+
+        <div class="row game">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 gamepanel"> 
+                <h3 id="game-instruct">Press Any Key to Get Started!</h3>
+                <div id="game-body">
+                    <p>Wins: <span id="counter"></span></p>
+                    <p>Current Word:</p>
+                    <h3 id="blank-line"></h3>
+                    <p>Number of Guesses Remaining:<span id="guesses-remain"></span></p>
+                    <p>Letters Already Guessed:<span id="incorrect-guess"></span></p>
+                </div>
+            </div>  
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="row">
+        <div class="col-md-12 footer"> &copy; Copyright 2018 Lydia Velasquez</div>
+    </div>
+    <!--JS-->
+    <script src="./assets/javascript/game.js"></script>
+</body>
+</html>
