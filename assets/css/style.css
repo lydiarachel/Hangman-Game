@@ -59,6 +59,7 @@ h1{
 
 /*footer*/
 .footer{
+    margin-bottom: 0;
     background-color:#535353;
     color: #fff;
     padding: 30px 0;
