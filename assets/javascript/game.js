@@ -24,7 +24,7 @@ function gameStart(){
     blankLines = [];
 
     wordSelected = wordListing[Math.floor(Math.random() * wordListing.length)];
-    lettersOfSelectedWord = wordSelected.split("");
+    lettersOfSelectedWord = wordSelected.split(""); 
     numberOfBlanks = lettersOfSelectedWord.length;
     console.log(wordSelected);
     console.log(numberOfBlanks);
